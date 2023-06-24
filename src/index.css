@@ -1,1 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(163, 150, 150);
+}
+
+.App {
+    text-align: center;
+
+}
+
+.App h1 {
+    font-size: 24px;
+}
+
+.App p {
+    font-size: 18px;
+}
+
+.loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loading-container img {
+    background-image: url(./cat-loading.gif);
+    background-image: cover;
+
+}
+
+.cat-facts-image {
+    width: 650px;
+    height: 200px;
+}
+
+
+.App .generate-button {
+    background-color: #007bff;
+    color: white;
+    height: 60px;
+    width: 230px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
