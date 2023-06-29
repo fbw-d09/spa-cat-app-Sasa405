@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';                               //1. Der Code beginnt mit dem Importieren der notwendigen Module:
 import loadingImage from './cat-loading.gif';       //  `React`, `useState`, `useEffect` aus der 'react'-Bibliothek, sowie die CSS-Dateien './index.css',
 import catFactsImage from './cat-facts.png';        //  './cat-loading.gif' und './cat-facts.png'.
@@ -84,3 +84,6 @@ export default App;
 
 
 //Zusammenfassend lässt sich sagen, dass dieser Code eine React-Anwendung einrichtet, die beim ersten Laden einen Katzen-Faktor von einer API abruft, während des Ladevorgangs ein Lade-Gif anzeigt und dann den abgerufenen Fakt zusammen mit einem Bild und einem Button zum Generieren neuer Fakten anzeigt. Ein Klick auf die Schaltfläche löst eine neue Anfrage für einen Katzen-Faktor aus, ohne dass das Lade-Gif erneut angezeigt wird.
+
+
+
